@@ -1,8 +1,10 @@
 {
-  "name": "react-props-practice",
+  "name": "simple-react-contact",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "contact cards using react.",
+  "keywords": [
+    "react"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.8.6",
