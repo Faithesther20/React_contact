@@ -1,6 +1,6 @@
 const contacts = [
   {
-    name: "Daniel_Kolenda",
+    name: "Daniel Kolenda",
     imgURL: "https://www.pngkey.com/png/full/658-6589017_daniel-kolenda.png",
     phone: "+123 456 789",
     email: "d@kolenda.com"
@@ -13,7 +13,7 @@ const contacts = [
     email: "wf@Kumuyi.com"
   },
   {
-    name: "Pst Paul_washer",
+    name: "Pst Paul washer",
     imgURL:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTbUfdRLW1LtSZ6nR1yW4SR7s-2111kwuQRQ&usqp=CAU",
     phone: "+918 372 574",
