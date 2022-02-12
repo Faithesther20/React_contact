@@ -3,7 +3,18 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 import contacts from "./contacts";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <div>
+    <h1 className="heading">My Contact Project</h1>
+    <App
+      name={contacts[0].name}
+      imgURL={contacts[0].imgURL}
+      tel={contacts[0].phone}
+      email={contacts[0].email}
+    />
+  </div>,
+  document.getElementById("root")
+);
 
 //1. Apply CSS styles to App.jsx component
 //to match the appearance on the completed app:
