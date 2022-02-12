@@ -3,10 +3,12 @@ import Card from "./Card";
 import contacts from "../contacts";
 import Avatar from "./Avatar";
 
+// this is where all the templates created are put to use based on my own understanding
 function createContact(contact) {
   return (
     <Card
       key={contact.id}
+      id={contact.id}
       name={contact.name}
       img={contact.imgURL}
       tel={contact.phone}
